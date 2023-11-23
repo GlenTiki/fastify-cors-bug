@@ -1,0 +1,22 @@
+{
+  "name": "fastify-bun-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run:bun": "bun ./server.ts",
+    "run:node": "ts-node ./server.ts",
+    "run:test": "node ./test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^8.4.1",
+    "bun": "^1.0.14",
+    "fastify": "^4.24.3"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
