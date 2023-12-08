@@ -1,6 +1,6 @@
 # fastify bug report
 
-This project is a demonstration of a bug for the developers of @fastify/cors.
+This project is a demonstration of a bug for the developers of `@fastify/cors`.
 
 ## Getting Started
 
@@ -10,7 +10,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 What things you need to install the software and how to install them:
 
-- Node.js (20.x)
+- Node.js (> 16.x)
 - npm
 
 ### Installing
@@ -25,26 +25,20 @@ A step by step series of examples that tell you how to get a development environ
 npm install
 ```
 
+## Running the Tests
+
+You can run the test using the following command:
+
+```bash
+npm run test
+```
+
+This test is broken with the installed `@fastify/cors` version of `8.4.2` but working on the old version `8.4.1`
+
 ## Running the Service
 
 You can start the service using the following commands:
 
-For Node.js:
-
 ```bash
-npm run run:node
-```
-
-For Bun:
-
-```bash
-npm run run:bun
-```
-
-## Running the Tests
-
-You can run the tests using the following command:
-
-```bash
-npm run run:test
+npm run server
 ```
